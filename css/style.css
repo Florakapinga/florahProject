@@ -11,3 +11,17 @@ body{
 nav{
     color: white;
 }
+.navbar{
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    background: rgb(122, 97, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
