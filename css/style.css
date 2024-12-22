@@ -52,5 +52,42 @@ display: flex;
     height: 100vh;
     padding: 60px 9% 0;
     color: #fff;
-    
+
  }
+ .home-info h1{
+    font-size: 50px;
+ }
+ .home-info h2 {
+    font-size: 25px;
+    margin-top: -10px;
+ }
+ .home-info p{
+    font-size: 16px;
+    margin: 20px 0 25px; 
+    color: black;
+ }
+ .home-info .btn-sci{
+    display: flex;
+    align-items: center;
+
+ }
+  .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #7cf03d;
+    border: 2px solid #7cf03d;
+     border-radius: 40px;
+     box-shadow: 0 0 10px #7cf03d ;
+     font-size: 16px;
+     color: #1f242d;
+     font-weight: 600;
+      transition: .5s;
+  }
+  .btn:hover{
+    background: transparent;
+    color: #7cf03d;
+    box-shadow: none;
+  } 
+  .home-info .btn-sci .sci{
+    margin-left: 20px;
+  }
