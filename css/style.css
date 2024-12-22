@@ -15,7 +15,7 @@ nav{
 left: 0;
 right: 0;
     width: 100%;
-    padding: 25px 1%;
+    padding: 25px 1px ;
     background: rgb(122, 97, 214);
     display: flex;
     justify-content: space-between;
@@ -26,3 +26,25 @@ right: 0;
     font-size: 30px;
     font-weight: 700;
 }
+.navbar ul {
+display: flex;
+
+
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+
+}
+ .navbar ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+
+ }
+ .navbar ul li:hover a,
+ .navbar ul li.active a{
+    color: yellow;
+    
+     
+ }
