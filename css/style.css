@@ -5,18 +5,17 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    background-color: black;
+   background-color: black;
 
 }
 nav{
-    background-color: white;
+    color: white;
 }
 .navbar{
 left: 0;
 right: 0;
     width: 100%;
     padding: 25px 1px ;
-    background: rgb(122, 97, 214);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,6 +44,6 @@ display: flex;
  .navbar ul li:hover a,
  .navbar ul li.active a{
     color: yellow;
-    
+     
      
  }
