@@ -5,7 +5,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-   background-color: black;
+   background-color: rgb(36, 24, 24);
 
 }
 nav{
@@ -43,7 +43,14 @@ display: flex;
  }
  .navbar ul li:hover a,
  .navbar ul li.active a{
-    color: yellow;
+    color: yellow; 
      
-     
+ }
+ .home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #fff;
+    
  }
